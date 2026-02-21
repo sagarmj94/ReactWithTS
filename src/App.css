@@ -90,3 +90,62 @@ article button {
 article button:hover {
   background-color: #c62828;
 }
+
+/* INFOBOX */
+.infobox {
+  margin: 1.5rem 0;
+  padding: 1rem 1.2rem;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.06);
+}
+
+.infobox h2 {
+  font-size: 1rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 0.2rem;
+}
+
+.infobox p {
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+/* HINT MODE */
+.infox-hint {
+  background-color: #e8f1ff;
+  border-left: 6px solid #3b82f6;
+}
+
+.infox-hint h2 {
+  color: #1e40af;
+}
+
+/* WARNING MODE BASE */
+[class*="infox-warning"] {
+  background-color: #fff4e5;
+  border-left: 6px solid #f59e0b;
+}
+
+/* WARNING SEVERITY LEVELS */
+.infox-warning--low {
+  background-color: #fff7ed;
+  border-left-color: #fbbf24;
+}
+
+.infox-warning--medium {
+  background-color: #fff1f2;
+  border-left-color: #fb923c;
+}
+
+.infox-warning--high {
+  background-color: #fee2e2;
+  border-left-color: #ef4444;
+}
+
+.infox-warning--high h2 {
+  color: #b91c1c;
+}
